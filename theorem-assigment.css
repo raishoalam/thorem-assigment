@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0px 1px 0px #f5faf6;
+    background-color: #fff;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+.logo {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.dash {
+    background: #cffcf4;
+    display: flex;
+}
+
+.ha {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.dash1 {
+    padding-left: 10px;
+    color: #0dd9b3;
+    cursor: pointer;
+}
+
+.grid-img {
+    width: 20px;
+    margin-left: -8px;
+}
+
+.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.dash-icons {
+    padding-right: 10px;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #1d0482;
+    height: 30vh;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #555;
+}
+
+.top-pra {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.top-head {
+    font-size: 16px;
+    color: #12c730;
+    font-weight: 400;
+}
+
+.top-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.search-input {
+    position: relative;
+    background: #4a378a;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.notification-icon {
+    color: #fff;
+    margin-top: 0px;
+    background: #4a378a;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.top-card-heading {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -50px;
+    padding-left: 20px;
+}
+
+.card-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    height: 100px;
+    width: 160px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #e8e6f0;
+    margin: 10px;
+}
+
+.card-cont {
+    display: flex;
+}
+
+.card-heading {
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+}
+
+.card-icon {
+    margin: 12px;
+}
+
+.card-pra {
+    font-size: 17px;
+    color: #7a7880;
+    padding-left: 10px;
+}
+
+.cont-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.main-content {
+    background: #fff;
+    margin: 20px;
+    box-shadow: 1px 1px 1px 1px #e8e6f0;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-heading {
+    font-size: 17px;
+    color: #333;
+    padding-left: 10px;
+}
+
+.btn {
+    background: #1ed4a3;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.main-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.detail {
+    font-size: 16px;
+}
+
+.main-cont-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sent-btn {
+    background: #e6f7f3;
+    color: #0ea5e6;
+    border-radius: 10px;
+    border: 0;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
